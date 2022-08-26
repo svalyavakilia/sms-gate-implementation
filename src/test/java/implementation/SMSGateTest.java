@@ -5,8 +5,8 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThatThrownBy;
 
-public class SMSGateTest {
-    private final SMSGate smsGate = new SMSGate();
+public class SmsGateTest {
+    private final SmsGate smsGate = new SmsGate();
 
     @Test
     public void

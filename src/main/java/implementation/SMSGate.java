@@ -2,7 +2,7 @@ package implementation;
 
 import java.util.Set;
 
-public class SMSGate {
+public class SmsGate {
     private static final int MAXIMUM_MESSAGE_LENGTH = 160;
     private static final String DOTS = "...";
     private static final Set<Character> SPECIAL_CHARACTERS = Set.of(
